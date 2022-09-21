@@ -1,7 +1,8 @@
-var clicks= 3;
+var count = 3;
+var countElement = document.querySelector("#three");
 
 function addOne(element) {
-    clicks += 1;
-    document.getElementById("three").innerHTML = clicks;
+    count++;
+    countElement.innerText = count;
 
 }
